@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DisposablePadChiper.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -117,6 +118,11 @@ namespace DisposablePadChiper
                 chiperText.Text = chiper.Decrypt(chiperText.Text);
                 return;
             }
+        }
+
+        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new About().Show();
         }
     }
 }

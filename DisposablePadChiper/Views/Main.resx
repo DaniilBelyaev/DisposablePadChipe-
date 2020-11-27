@@ -121,6 +121,18 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="файлToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="файлToolStripMenuItem.Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="оПрограммеToolStripMenuItem.Text" xml:space="preserve">
+    <value>О программе</value>
+  </data>
   <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -145,12 +157,6 @@
   </data>
   <data name="&gt;&gt;MainMenu.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="файлToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="файлToolStripMenuItem.Text" xml:space="preserve">
-    <value>Файл</value>
   </data>
   <data name="OpenText.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
@@ -200,21 +206,6 @@
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 47</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Длинна</value>
-  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
@@ -226,15 +217,6 @@
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="passwordLenght.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 45</value>
-  </data>
-  <data name="passwordLenght.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 20</value>
-  </data>
-  <data name="passwordLenght.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
   </data>
   <data name="&gt;&gt;passwordLenght.Name" xml:space="preserve">
     <value>passwordLenght</value>
@@ -248,18 +230,6 @@
   <data name="&gt;&gt;passwordLenght.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="GeneratePassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 44</value>
-  </data>
-  <data name="GeneratePassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 23</value>
-  </data>
-  <data name="GeneratePassword.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="GeneratePassword.Text" xml:space="preserve">
-    <value>Сгенирировать пароль</value>
-  </data>
   <data name="&gt;&gt;GeneratePassword.Name" xml:space="preserve">
     <value>GeneratePassword</value>
   </data>
@@ -271,15 +241,6 @@
   </data>
   <data name="&gt;&gt;GeneratePassword.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="passwordBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 18</value>
-  </data>
-  <data name="passwordBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 20</value>
-  </data>
-  <data name="passwordBox.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;passwordBox.Name" xml:space="preserve">
     <value>passwordBox</value>
@@ -316,6 +277,51 @@
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="passwordBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="passwordBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 20</value>
+  </data>
+  <data name="passwordBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Name" xml:space="preserve">
+    <value>passwordBox</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;passwordBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GeneratePassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 44</value>
+  </data>
+  <data name="GeneratePassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="GeneratePassword.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GeneratePassword.Text" xml:space="preserve">
+    <value>Сгенирировать пароль</value>
+  </data>
+  <data name="&gt;&gt;GeneratePassword.Name" xml:space="preserve">
+    <value>GeneratePassword</value>
+  </data>
+  <data name="&gt;&gt;GeneratePassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GeneratePassword.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;GeneratePassword.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="chiperText.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 20</value>
@@ -476,6 +482,54 @@
   <data name="&gt;&gt;ProcessText.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="passwordLenght.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 45</value>
+  </data>
+  <data name="passwordLenght.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 20</value>
+  </data>
+  <data name="passwordLenght.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;passwordLenght.Name" xml:space="preserve">
+    <value>passwordLenght</value>
+  </data>
+  <data name="&gt;&gt;passwordLenght.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passwordLenght.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;passwordLenght.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 47</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Длинна</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -504,6 +558,12 @@
     <value>SaveText</value>
   </data>
   <data name="&gt;&gt;SaveText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;оПрограммеToolStripMenuItem.Name" xml:space="preserve">
+    <value>оПрограммеToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;оПрограммеToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

@@ -46,6 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Chiper\DisposablePadChiper.cs" />
+    <Compile Include="Views\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
